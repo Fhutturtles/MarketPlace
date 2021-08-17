@@ -1,0 +1,152 @@
+body {
+background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+      
+    background-size: cover;
+    }
+
+    .Title{
+        font-size: 10vw;
+    text-align: center;
+    color: green;
+    }
+
+
+.menu
+{
+	position: fixed;
+	left: 0px;
+	display: flex;
+	flex-direction: column;
+	padding: 12px 16px;
+	z-index: 1;
+	font-size: 2.5vw;
+	color: #9a36ff;
+}
+
+.Search_Bar
+{
+	position: fixed;
+	right: 0px;
+	display: flex;
+	flex-direction: column;
+	padding: 12px 16px;
+	z-index: 1;
+	font-size: 2.5vw;
+	color: #9a36ff;
+}
+.menu:hover .mend
+{
+	display: block;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	  
+	background-size: cover;
+	
+}
+
+.mend{
+	display: none;
+	position: fixed;
+	left: 0px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	font-size: 1.75vw;
+	z-index: 1;
+	color: #9a36ff;
+}
+
+/*
+.Viewport
+{
+	position: fixed;
+	left: 0px;
+	
+	display: flex;
+	flex-direction: column;
+	padding: 12px 16px;
+	z-index: 1;
+	font-size: 2.5vw;
+	color: green;
+}
+
+.Viewport:hover .ViewItems
+{
+	display: block;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	  
+	background-size: cover;
+	
+}
+*/
+
+.ViewItems{
+	display: block;
+	position: fixed;
+	
+	left: 0;
+	right: 100;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 16px;
+	font-size: 1.75vw;
+	z-index: 1;
+	color: #9a36ff;
+}
+.randtextL{
+	font-size: 1.5vw;
+	
+font-family:"roman numeral";
+}
+
+.randtextM{
+	font-size: 1.002vw;
+    display: flex;
+	justify-content: flex-end;
+    width: 20%;
+	
+font-family:"roman numeral";
+}
+.imageT{
+	right: 100px;
+	color: white;
+}
+.imges{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+	justify-content: start;
+    width: 80%;
+    
+}
+.frsttble
+{
+position:static;
+	right: 0px;
+	display: flex;
+	justify-content: flex-end;
+}
+.Page_Header{
+	font-size: 60px;
+text-align: center;
+color: #9a36ff;
+}
+.contact_message{
+    font-size: 40px;
+text-align: center;
+color: #9a36ff;
+}
+#Home_page img {
+	width: 20%;
+	height: 50%;
+}
+
+#items_for_sale img{
+	width: 50%;
+	height: 50%;
+}
