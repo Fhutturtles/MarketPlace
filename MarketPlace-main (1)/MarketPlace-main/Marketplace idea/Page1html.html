@@ -2,17 +2,22 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="Page1css.css">
+    <link href="http://fonts.cdnfonts.com/css/games" rel="stylesheet">
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/games');
+</style>
+
 	
       </head>
 	  <div class="menu">
 			<span>=</span>
 			<div class = "mend" style="color: #717572;">
             <br>
-			<div  style="color:green;">  <a href="#"  onclick="Home()">Home</a></div> 
+			<div  style="color: rgb(0,2,128);">  <a href="#"  onclick="Home()">Home</a></div> 
 			<br>
-			<div style="color: green;"> <a href="#"  onclick="showAbout()">About</a></div>
+			<div style="color: rgb(0,2,128);"> <a href="#"  onclick="showAbout()">About</a></div>
 			<br>
-			<div style="color: green;"><a href="#" onclick="showContact()">Contact</a></div>
+			<div style="color: rgb(0,2,128);"><a href="#" onclick="showContact()">Contact</a></div>
             <br>
 			<div style="color: green;"><a href="#" onclick="ItemSale()">Items</a></div>
 			<div style="color: green;"> Buy items/Sell items </div>
@@ -42,25 +47,30 @@
 </div>
 
 <div id="Items_for_sale">
-    <img src="logo.png" class="imges">
+    <img src="https://images.theconversation.com/files
+    /326352/original/file-20200408-108521-bnsblv.jpg?ixlib=rb-1.1.0&q
+    =45&auto=format&w=1200&h=675.0&fit=crop" class="imges">
     <p align="center" class="Page_Header">Local items</p>
-    <div id="item_tables">
-        <p>This is the priamry page that needs to get done</p>
-    </div>
     <div>
-        <button>Buy Items</button>
-        <button>Sell Items</button>
+        <a href="#"  onclick="buyItems()">Buy Items</a>
+        <a href="#"  onclick="sellItems()">Sell Items</a>
     </div>
-
-
 </div>
+
+<div id="Buy_Items_Page">
+    <h2 id="buyItems">Items for Sale</h2>
+</div>
+
+<div id="Sell_Items_Page">
+    <h2>List your item</h2>
+</div>
+
 
 <div id="Contact_Page">
     <img src="logo_2.png" style="width: 85%; height: 50%;" class="imges">
         <p align="center" class="Page_Header">Contact & about</p>
         <p class="contact_message"> 
-             I honestly dont really know what to put on this page for the contact information, we dont even have
-             a group name yet but his is basically here to say that hey we have a contact page an we are making it really soon
+             Email: cheapestgamingstuff@gmail.com / Phone Number: 917 - 232- 3254
         </p>
 </div>
 
@@ -68,9 +78,9 @@
     <img src="logo_2.png" style="width: 85%; height: 50%;" class="imges">
         <p align="center" class="Page_Header">About Page </p>
         <p class="contact_message"> 
-        To be honest this is supposed to have about us stuff
+        CheapGamingStuff.com is a website that directs you to the top tier products at their cheapest price.  From Atari's to  Nintendo Switch's , we have every piece of gaming technology you need. Our website will lead you to a group of sellers that sell your neccessity at the lowest price. Why spend hours searching for the best price for what you want, when you can just go to CheapGamingStuff.com and find what you want quickly and efficently?  
         </p>
-        <p> We Still dont know what we are doing but I'm just here tryna make soemthing come together, the coding is split between groups whihc can cause confusuon because the project vision is vague and the wireframes need to be compoleted before the coding starts so that we know what we are doing</p>
+        <p> </p>
 </div>
 
 <script src="Page1java.js"></script>

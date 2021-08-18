@@ -3,7 +3,7 @@ function Itemsarray()
 {
 for(let A = 0; A <= 5; A++)
 {
-let News = document.getElementById("item_tables");
+let News = document.getElementById("buyItems");
 if(A%2 == 0)
 {
 let New_News_TableT= document.createElement("table");
@@ -105,7 +105,8 @@ function ItemSale()
     document.getElementById("Contact_Page").style.display = "none";
     document.getElementById("About_Page").style.display = "none";
     document.getElementById("Items_for_sale").style.display = "";
-    Itemsarray();
+    document.getElementById("Buy_Items_Page").style.display = "none";
+    document.getElementById("Sell_Items_Page").style.display = "none";
 }
 function showAbout()
 {
@@ -120,6 +121,27 @@ function showContact()
     document.getElementById("Contact_Page").style.display = "";
     document.getElementById("About_Page").style.display = "none";
     document.getElementById("Items_for_sale").style.display = "none";
+}
+
+function buyItems()
+{
+    document.getElementById("Home_page").style.display = "none";
+    document.getElementById("Contact_Page").style.display = "none";
+    document.getElementById("About_Page").style.display = "none";
+    document.getElementById("Items_for_sale").style.display = "none";
+    document.getElementById("Buy_Items_Page").style.display = "";
+    document.getElementById("Sell_Items_Page").style.display = "none";
+    Itemsarray();
+}
+
+function sellItems()
+{
+    document.getElementById("Home_page").style.display = "none";
+    document.getElementById("Contact_Page").style.display = "none";
+    document.getElementById("About_Page").style.display = "none";
+    document.getElementById("Items_for_sale").style.display = "none";
+    document.getElementById("Buy_Items_Page").style.display = "none";
+    document.getElementById("Sell_Items_Page").style.display = "";
 }
 
 
