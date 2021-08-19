@@ -153,7 +153,7 @@ the following code is a sereis for functions in JQuery to send and pull requests
 
 */
 
-
+/*
 //let get_User_Search = document.getElementById("User_Input");///this si to get the search item by what is put into the search bar
 let submit_search = document.getElementById("User_Search");
 submit_search.onclick = function refresh()
@@ -163,4 +163,18 @@ submit_search.onclick = function refresh()
     let go_to = document.createElement("a");
     go_to.href = pull_request;
     document.body.appendChild(go_to);
+}
+*/
+
+//let get_User_Search = document.getElementById("User_Input");///this si to get the search item by what is put into the search bar
+let submit_search = document.getElementById("User_Search");
+submit_search.onclick = function refresh()
+{////get the use data
+    //send a request
+    let get = document.getElementById("User_Input");
+    if(get  != "")
+    {
+        window.location.href = "https://lancaster.craigslist.org/d/video-gaming/search/vga?query=" + get.value;
+    }
+    
 }
